@@ -5,15 +5,15 @@ import Home from "../Pages/Home/Home";
 
 import Register from "../Pages/Auth/Register/Register";
 import Error from "../Pages/Error/Error";
-import AuthCheck from "../AuthCheck/AuthCheck";
+//import AuthCheck from "../AuthCheck/AuthCheck";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import Auth from "../Pages/Auth/auth"
 import Login from "../Pages/Auth/Login/login";
+import AuthCheck from "../AuthCheck/Authcheck"
 
 const MainLayout = () => {
     return (
-
         <BrowserRouter>
             {/* navbar  */}
             <Navbar />
